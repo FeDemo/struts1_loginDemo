@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/demoAction.do" location="950,250" dimension="216,104" />
+  <StrutsActivity path="/demo.jsp" location="50,450" dimension="91,53" />
+  <StrutsActivity path="/jzgc/dwgl/azxlgzdw/azxlgzdw_phonenum.jsp" location="650,50" dimension="296,53" />
+  <StrutsActivity path="/jzgc/dwgl/azxlgzdw/azxlgzdw_edit.jsp" location="50,250" dimension="256,53" />
+  <StrutsActivity path="/jzgc/dwgl/azxlgzdw/azxlgzdw_list.jsp" location="650,250" dimension="250,53" />
+  <StrutsActivity path="/login.jsp" location="350,450" dimension="86,53" />
+  <StrutsTransition id="/demoAction.do,login,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1058,302" />
+      <AbsolutePoint location="393,476" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/demoAction.do,demo,/demo.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1058,302" />
+      <AbsolutePoint location="95,476" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/demoAction.do,demo,/login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1058,354" />
+      <AbsolutePoint location="1058,476" />
+      <AbsolutePoint location="436,476" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
